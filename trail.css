@@ -1,0 +1,15 @@
+/* Make the about-me section a vertical, centered column */
+#about-me {
+  max-width: 800px;
+  margin: 40px auto 0;      /* centers the section on the page */
+  display: flex;
+  align-items: center;      /* center them horizontally */
+  text-align: center;       /* center the text inside */
+}
+
+/* Tiny circular picture below h1 */
+  .about-me__picture--mask {
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+}
